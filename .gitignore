@@ -1,0 +1,51 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Data (local runtime data — not committed)
+data/aria.db
+data/embeddings/
+data/models/
+*.db
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Docker
+infrastructure/monitoring/grafana/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Certificates
+infrastructure/nginx/certs/
+
+# Test databases
+test.db
